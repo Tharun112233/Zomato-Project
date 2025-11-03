@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   mysvc:
-    image: chaitanyaalahari/myimage:zomato
+    image: tharun29012000/myimage:zomato
     ports:
       - "3001:3000"   # maps targetPort 3000 to host port 3000
     deploy:
