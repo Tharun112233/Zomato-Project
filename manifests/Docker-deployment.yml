@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   myapp:
-    image: chaitanyaalahari/myimage:zomato
+    image: tharun29012000/myimage:zomato
     ports:
       - "3000:3000"   # maps containerPort 3000 to host
     deploy:
